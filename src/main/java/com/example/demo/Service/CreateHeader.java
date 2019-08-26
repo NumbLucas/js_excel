@@ -28,11 +28,10 @@ public class CreateHeader {
             int headLines = 5;
             switch (sheetName) {
                 case "R02_人民币贷款浮动利率期限结构表":
-                    headLines = 5;
+                    headLines = 6;
                     break;
                 default:
                     break;
-
             }
 
             Sheet head_sheet = new Sheet(sheet.getSheetNo(), sheet.getHeadLineMun());
