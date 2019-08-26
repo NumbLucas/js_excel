@@ -28,7 +28,7 @@ public class CreateHeader {
             int headLines = 5;
             switch (sheetName) {
                 case "R02_人民币贷款浮动利率期限结构表":
-                    headLines = 6;
+                    headLines = 5;
                     break;
                 default:
                     break;
